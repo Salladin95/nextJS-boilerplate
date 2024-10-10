@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 // Sort colors by numbers: https://elektrobild.org/tools/sort-colors
 const colors = {
@@ -21,10 +21,7 @@ const colors = {
 }
 
 const config: Config = {
-	content: [
-		"./app/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/**/*.{js,ts,jsx,tsx,mdx}"
-	],
+	content: ["./app/**/*.{js,ts,jsx,tsx,mdx}", "./src/**/*.{js,ts,jsx,tsx,mdx}"],
 	theme: {
 		colors,
 		screens: {
@@ -47,21 +44,21 @@ const config: Config = {
 		fontFamily: {
 			noto: ["var(--font-noto)"],
 			inter: ["var(--font-inter)"],
-			montserrat: ['Montserrat', 'sans-serif'],
+			montserrat: ["Montserrat", "sans-serif"],
 			"g-mono": ["var(--font-geist-mono)"],
 			"g-sans": ["var(--font-geist-sans)"],
 		},
 		fontSize: {
-			xs: ['14px', '130%'],
-			sm: ['16px', '130%'],
-			md: ['18px', '130%'],
-			lg: ['20px', '130%'],
-			xl: ['22px', '130%'],
-			'2xl': ['28px', '130%'],
-			'3xl': ['36px', '130%'],
+			xs: ["14px", "130%"],
+			sm: ["16px", "130%"],
+			md: ["18px", "130%"],
+			lg: ["20px", "130%"],
+			xl: ["22px", "130%"],
+			"2xl": ["28px", "130%"],
+			"3xl": ["36px", "130%"],
 		},
 	},
-	plugins: []
-};
+	plugins: [],
+}
 
-export default config;
+export default config
